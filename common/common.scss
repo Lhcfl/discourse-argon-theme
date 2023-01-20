@@ -1095,7 +1095,24 @@ input[type="checkbox"]:hover {
     justify-content: space-between;
 }
 
+/* Search */
     
+.search-container .search-header {
+    box-shadow: var(--card-shadow);
+    background-color: var(--secondary);
+}
+.search-container .search-header .btn-primary:hover{
+    background: var(--tertiary-hover) !important;
+}
+.search-container .search-filters, .search-container .search-filters .search-advanced-filters {
+    background: transparent;
+}
+
+.search-advanced {
+    margin-top: 15px;
+    box-shadow: var(--card-shadow);
+    padding: 10px;
+} 
     
     
 
@@ -1512,6 +1529,28 @@ input[type="checkbox"]:hover {
     box-shadow: var(--card-shadow);
     border-radius: var(--argon-radius);
     background: var(--secondary);
+}
+
+.mobile-view .user-content-wrapper .user-primary-navigation li .expander,
+.mobile-view .user-content-wrapper .user-secondary-navigation li .expander {
+    box-shadow: var(--card-shadow);
+    border-color: var(--primary-low);
+}
+
+.mobile-view .post-controls {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#topic-progress {
+    margin-left: 10px;
+    box-shadow: var(--btn-hover-shadow);
+    border-radius: var(--argon-radius);
+}
+   
+#topic-progress .bg {
+    box-shadow: var(--card-shadow);
+    border-radius: var(--argon-radius);
 }
 
 .full-width>#list-area>.contents>.topic-list>tbody {
