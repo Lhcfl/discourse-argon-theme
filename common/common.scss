@@ -534,7 +534,11 @@ input[type="checkbox"]:hover {
     box-shadow: var(--card-shadow);
     border-color: var(--primary-very-low);
 }
-    
+
+.topic-category {
+    justify-content: center;
+}
+
 /* Private Message */
 .archetype-private_message .topic-body .cooked {
     margin: 0 -7px 5px -5px;
@@ -1349,7 +1353,7 @@ input[type="checkbox"]:hover {
     html.has-full-page-chat body #main-outlet .full-page-chat {
         margin: 0 -10px; 
     }
-    
+
 }
     
 
