@@ -860,7 +860,7 @@ input[type="checkbox"]:hover {
     background: var(--secondary);
     margin: 22px 0 22px 20px;
 }
-.has-full-page-chat:not(.discourse-sidebar) #main-chat-outlet {
+body.has-full-page-chat:not(.has-sidebar-page) #main-chat-outlet {
     margin: 0;
 }
 
