@@ -1284,6 +1284,32 @@ input[type="checkbox"]:hover {
    background: var(--primary-medium);
 }
 
+#reply-control.draft .btn, #reply-control.saving .btn{
+    background: var(--tertiary) !important;
+    box-shadow: none;
+}
+.header-dropdown-toggle.chat-header-icon .icon{
+    background: transparent !important;
+    border: none !important;
+}
+
+.badge-wrapper.bar {
+    display: inline-flex;
+    align-items: center;
+}
+.badge-wrapper.bar .badge-category-bg, .badge-wrapper.bar .badge-category-parent-bg {
+    border-radius: var(--argon-radius);
+    width: 13px;
+    height: 15px;
+}
+.badge-wrapper.bar .badge-category-parent-bg {
+    border-radius: var(--argon-radius) 0 0 var(--argon-radius);
+    width: 5.8px;
+}
+.badge-wrapper.bar .badge-category-bg:nth-child(2){
+    border-radius: 0 var(--argon-radius) var(--argon-radius) 0;
+    width: 5.8px;
+}
 
 /* 屏幕适应性 */
 @media screen and (max-width: 850px) {
@@ -1367,7 +1393,7 @@ input[type="checkbox"]:hover {
         width: 48%;
     }
     
-    html.has-full-page-chat body #main-outlet .full-page-chat {
+    html.has-full-page-chat.desktop-view body #main-outlet .full-page-chat {
         margin: 0 -10px; 
     }
 
