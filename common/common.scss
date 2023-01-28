@@ -1081,6 +1081,9 @@ body.has-full-page-chat:not(.has-sidebar-page) #main-chat-outlet {
     border-top: none;
 }
     
+.admin-area .nav-pills li a.edited {
+    text-decoration: underline;
+}
 
 /* Login */
     
