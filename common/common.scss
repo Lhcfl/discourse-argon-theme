@@ -869,10 +869,19 @@ body.has-full-page-chat:not(.has-sidebar-page) #main-chat-outlet {
 .sidebar-wrapper {
     top: calc(var(--header-offset) + 23px);
     height: calc(100vh - (var(--header-offset) + 46px));
+    margin-top: 23px;
     box-shadow: var(--card-shadow);
     border-radius: var(--argon-radius);
     background: var(--secondary);
     margin-left: 10px;
+}
+
+.composer-open .sidebar-wrapper {
+    height: calc(100vh - (var(--header-offset) + 46px) - var(--composer-height, 0) );
+}
+    
+.composer-open .sidebar-wrapper .sidebar-container {
+    height: calc(100%);
 }
 
 .sidebar-wrapper .btn {
