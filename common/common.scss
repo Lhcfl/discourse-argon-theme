@@ -1467,7 +1467,156 @@ div.edit-category .edit-category-footer {
     margin-top: 10px;
 }
 
+/* Docs */
     
+
+    
+.docs-search {
+    box-shadow: var(--card-shadow);
+    border-radius: var(--argon-radius);
+    background: var(--secondary);
+}
+    
+@media screen and (max-width: 550px) {
+    .docs-search {
+        padding: 0;
+        margin-bottom: 1em;
+    }
+    .docs-search .docs-search-bar {
+        height: 40px;
+    }
+}
+    
+@media screen and (min-width: 768px) {
+    .docs-browse .docs-filters {
+        padding-right: 1em;
+    }
+}
+    
+.docs-browse .docs-items {
+    box-shadow: var(--card-shadow);
+    border-radius: var(--argon-radius);
+    background-color: var(--secondary);
+    padding: 5px 5px 10px 5px;
+    margin-bottom: 20px;
+}
+    
+.docs-browse .docs-results {
+    box-shadow: var(--card-shadow);
+    border-radius: var(--argon-radius);
+    background-color: var(--secondary);
+}
+    
+.docs-items .item-controls .btn {
+    background: transparent;
+    width: 28px;
+    height: 28px;
+    box-shadow: none;
+}
+.docs-items .item-controls .btn.active {
+    background: var(--quaternary);
+}
+.docs-items .item-controls .btn.active svg {
+    color: var(--secondary);
+}
+    
+.docs-browse .docs-topic {
+    box-shadow: var(--card-shadow);
+    border-radius: var(--argon-radius);
+    background-color: var(--secondary);
+}
+
+.docs-browse .docs-topic .docs-nav-link.return {
+    box-shadow: none;
+}
+
+.desktop-view .docs-browse .docs-topic .topic-post>article>.row>.topic-body {
+    box-shadow: none;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+    
+.mobile-view .docs-browse .docs-topic .topic-post>article>.row>.topic-body {
+    box-shadow: none;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+    
+.desktop-view .docs-browse .docs-topic .topic-post>article>.row>.topic-body .topic-meta-data {
+    margin-left: 60px;
+}
+.desktop-view .docs-browse .docs-topic .topic-post>article>.row>.topic-body .contents {
+    margin-top: 20px;
+}
+
+.desktop-view .docs-browse .docs-topic .topic-post>article>.row>.topic-avatar {
+    position: absolute;
+    padding-top: 0;
+    margin-left: 10px;
+}
+
+.docs-browse .docs-topic>.topic-content>h1{
+    padding: 0 10px;
+}
+
+.docs-browse .loading-container {
+    padding: 0;
+}
+    
+.mobile-view .docs-filters {
+    padding: 0;
+}
+    
+.mobile-view .docs-filters+.docs-results {
+    margin-top: 20px;
+    padding: 5px;
+}
+    
+.docs-results tbody {
+    border: none;
+}
+
+.docs-browse .docs-topic .docs-nav-link.more {
+    padding: 10px;
+}
+    
+.mobile-view .docs-expander {
+    margin: 0;
+}
+    
+.mobile-view .docs-expander {
+    background: var(--quaternary);
+}
+.mobile-view .docs-expander *{
+    color: var(--secondary);
+}
+    
+.mobile-view .docs .docs-search {
+    padding: 0;
+}
+    
+.mobile-view .docs .docs-search .docs-search-bar {
+    width: 100%;
+}
+    
+.mobile-view .docs-search-wrapper {
+    width: 100%;
+}
+
+.mobile-view .docs-search-wrapper .btn.clear-search {
+    box-shadow: none;
+    background: var(--transparent);
+    border: none;
+    top: 10%;
+}
+    
+.mobile-view .docs-browse .docs-topic .topic-post>article>.row>.topic-avatar {
+    margin: 0 5px;
+}
     
     
     
