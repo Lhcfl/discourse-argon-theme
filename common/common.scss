@@ -1617,7 +1617,28 @@ div.edit-category .edit-category-footer {
 .mobile-view .docs-browse .docs-topic .topic-post>article>.row>.topic-avatar {
     margin: 0 5px;
 }
+
+.desktop-view .archetype-docs-topic .d-toc-wrapper {
+    position: fixed;
+    right: -286px;
+    top: var(--header-offset);
+    height: calc(100vh - var(--header-offset));
+    max-height: unset;
+    transition: all 0.3s;
+    padding-left: 30px;
+}
+.desktop-view .archetype-docs-topic .d-toc-wrapper:hover {
+    right: 0;
+}
+.desktop-view .archetype-docs-topic .d-toc-wrapper .d-toc-main {
+    margin: 0;
+    height: 100%;
+    width: 300px;
+}
     
+.desktop-view .archetype-docs-topic .d-toc-main #d-toc li.d-toc-item.direct-active>a:before {
+    width: 3px;
+}   
     
     
     
