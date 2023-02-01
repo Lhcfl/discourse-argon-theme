@@ -1125,7 +1125,45 @@ body.has-full-page-chat:not(.has-sidebar-page) #main-chat-outlet {
     box-shadow: var(--card-shadow);
     padding: 10px;
 } 
-    
+
+
+/*  Category Editor */
+div.edit-category .edit-category-title-bar {
+    box-shadow: var(--card-shadow);
+    border-radius: var(--argon-radius);
+    background-color: var(--secondary);
+}
+
+div.edit-category .edit-category-nav .nav-stacked {
+    box-shadow: var(--card-shadow);
+    border-radius: var(--argon-radius);
+    background-color: var(--secondary);
+}  
+div.edit-category .edit-category-nav .nav-stacked li {
+    border: none;
+    transition: all 0.2s;
+}  
+div.edit-category .edit-category-nav .nav-stacked li:hover {
+    background: var(--tertiary-200);
+}  
+div.edit-category .edit-category-content {
+    box-shadow: var(--card-shadow);
+    border-radius: var(--argon-radius);
+    background-color: var(--secondary);
+    padding: 10px;
+    margin-top: 15px;
+}
+div.edit-category .edit-category-footer {
+    padding: 0;
+}
+.category-permissions-table .btn {
+    box-shadow: none !important;
+    background: none !important;
+}
+.color-picker .picker {
+    margin-left: 2px;
+    border-left: 1px solid var(--primary-medium);
+}
     
 
     
