@@ -660,9 +660,10 @@ input[type="checkbox"]:hover {
     color: var(--secondary);
 }
 
-.discourse-no-touch .d-header-icons .icon:hover>.d-icon,
-.discourse-no-touch .d-header-icons .icon:focus>.d-icon,
-.drop-down-mode .d-header-icons .active .icon>.d-icon {
+.discourse-no-touch .d-header .d-header-icons .icon:hover>.d-icon,
+.discourse-no-touch .d-header .d-header-icons .icon:focus>.d-icon,
+.drop-down-mode .d-header-icons .active .icon>.d-icon,
+.header-dropdown-toggle.chat-header-icon a.icon.active .d-icon-comment {
     color: var(--header_primary-very-high);
 }
 .header-sidebar-toggle button:focus:hover, .discourse-no-touch .header-sidebar-toggle button:hover {
