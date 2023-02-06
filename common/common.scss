@@ -1749,11 +1749,15 @@ div.edit-category .edit-category-footer {
 }  
     
     
-    
-    
-    
-    
-    
+/* Post folding */
+.post-folding-tip .btn-link {
+    background-color: transparent;
+}
+
+/* Discourse reactions */
+.discourse-reactions-reaction-button .btn-icon {
+    box-shadow: none;
+}
     
     
     
