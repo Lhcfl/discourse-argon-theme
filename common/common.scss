@@ -662,7 +662,6 @@ input[type="checkbox"]:hover {
 
 .discourse-no-touch .d-header .d-header-icons .icon:hover>.d-icon,
 .discourse-no-touch .d-header .d-header-icons .icon:focus>.d-icon,
-.drop-down-mode .d-header-icons .active .icon>.d-icon,
 .header-dropdown-toggle.chat-header-icon a.icon.active .d-icon-comment {
     color: var(--header_primary-very-high);
 }
@@ -1505,6 +1504,15 @@ div.edit-category .edit-category-footer {
     .user-info.medium.badge-info {
         min-width: 100%;
     }
+}
+
+/* Banner */
+#banner {
+    border-radius: var(--argon-radius);
+    box-shadow: var(--btn-hover-shadow);
+}
+#banner .btn {
+    box-shadow: none;
 }
     
 
